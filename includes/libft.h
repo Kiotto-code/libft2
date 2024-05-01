@@ -6,7 +6,7 @@
 /*   By: yichan <yichan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/04 11:42:47 by yichan            #+#    #+#             */
-/*   Updated: 2024/03/29 15:46:30 by yichan           ###   ########.fr       */
+/*   Updated: 2024/05/01 17:58:47 by yichan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -152,5 +152,6 @@ size_t	getncount(char *str, uint8_t n);
 size_t	ft_strclen(char *str, char c);
 size_t	ft_strccpy(char *dst, char *src, char c);
 int		ft_abs(int x);
+int		ft_tclear(void);
 
 #endif
